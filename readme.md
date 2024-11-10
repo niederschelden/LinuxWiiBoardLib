@@ -17,7 +17,3 @@ Der Zugriff auf hidraw-Dateien erfordert derzeit Root-Rechte. Dieses Sicherheits
 ### Multithreading zur kontinuierlichen Ereignisverarbeitung:
 Ein separater Thread wird implementiert, der fortlaufend event-Nachrichten verarbeitet und ausgibt.
 Der Hauptthread bleibt blockierend auf Benutzereingaben fokussiert, um diese an die hidraw-Datei weiterzugeben.
-
-### Erweiterung und Optimierung der Gerätekommunikation:
-Effizientere Kommunikation und Synchronisation zwischen event- und hidraw-Dateien.
-Verbesserung der Benutzererfahrung durch erweiterte Konfigurationsmöglichkeiten und optimierte Geräteverwaltung.
