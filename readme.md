@@ -1,5 +1,5 @@
 # README
-Projektübersicht für LinuxWiiBoardLib
+## Projektübersicht für LinuxWiiBoardLib
 
 LinuxWiiBoardLib ging aus (YAWiiBBD)[https://github.com/niederschelden/YAWiiBBD] hervor, integriert aber die Funktionalität zur Datenempfangsverarbeitung aus (WiiWeight)[https://github.com/keldu/WiiWeight]. Ziel ist es, die Kommunikation mit einem bereits gepairten Wii Balance Board über event- und hidraw-Dateien zu ermöglichen, um eine direkte Interaktion zu schaffen und die umständlichere L2CAP-Kommunikation aus YAWiiBBD zu vermeiden.
 
