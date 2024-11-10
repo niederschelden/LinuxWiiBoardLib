@@ -17,3 +17,6 @@ Der Zugriff auf hidraw-Dateien erfordert derzeit Root-Rechte. Dieses Sicherheits
 ### Multithreading zur kontinuierlichen Ereignisverarbeitung:
 Ein separater Thread wird implementiert, der fortlaufend event-Nachrichten verarbeitet und ausgibt.
 Der Hauptthread bleibt blockierend auf Benutzereingaben fokussiert, um diese an die hidraw-Datei weiterzugeben.
+
+## Verwendung
+```gcc -o test third.c -ludev```
