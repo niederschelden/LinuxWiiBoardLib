@@ -19,4 +19,7 @@ Ein separater Thread wird implementiert, der fortlaufend event-Nachrichten verar
 Der Hauptthread bleibt blockierend auf Benutzereingaben fokussiert, um diese an die hidraw-Datei weiterzugeben.
 
 ## Verwendung
-```gcc -o test third.c -ludev```
+```bash
+gcc -o testprogramm main.c -ludev
+
+```
