@@ -10,6 +10,9 @@ LinuxWiiBoardLib baut auf [YAWiiBBD](https://github.com/niederschelden/YAWiiBBD)
 - Danach werden `hidraw`-Dateien im `/dev/`-Verzeichnis ermittelt und per `ioctl` weitere Infos geholt.
 - Momentan müssen `event`- und `hidraw`-Dateien manuell zugeordnet werden.
 
+### Ausgabe
+- Derzeit ist der dateipfad noch hardcodiert - alles aus /dev/input/event[x] wird auf stout gestreamt. mit kalman filter wenn man will.
+
 
 ## Nächste Schritte
 - Zusammenführen der beiden Quellcodes main.c und main2.c
