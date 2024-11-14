@@ -7,6 +7,7 @@
 #include <linux/hidraw.h>
 #include <sys/ioctl.h>
 #include <libudev.h>
+//compile: gcc -o main.out main.c -ludev
 
 #define MAX_DEVICES 100 // Maximale Anzahl der Geräte
 
